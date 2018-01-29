@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="爱技术 爱分享"><meta name="keywords" content="博客, 何长鸿, geekhch"><title>markdown语法笔记 | 加菲猫</title><link rel="stylesheet" type="text/css" href="//fonts.neworld.org/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.1"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.1"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">markdown语法笔记</h1><a id="logo" href="/.">加菲猫</a><p class="description">做个正经的程序猿</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="Arama"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">markdown语法笔记</h1><div class="post-meta"><a href="/2017/12/22/markdown语法笔记/#comments" class="comment-count"></a><p><span class="date">Dec 22, 2017</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><blockquote>
+<p>记录了一般博客常用的功能所需语法</p>
+</blockquote>
+<hr>
+<h3 id="Markdown简介"><a href="#Markdown简介" class="headerlink" title="Markdown简介"></a>Markdown简介</h3><p>Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。事实上Markdow完全兼容HTML的语法，但使用Markdown排版非常简单。公认说法：让笔客可以专注于文字，不用花太多精力来排版。以下将其简称为md，本文使用Atom for Win编辑器实现。</p>
+<hr>
+<h3 id="代码篇"><a href="#代码篇" class="headerlink" title="代码篇"></a>代码篇</h3><ol>
+<li>如果你只想高亮语句中的某个函数名或关键字：<ul>
+<li>输入：`function_name()`  (反单引号,英文状态下，esc下面那个键)</li>
+<li>显示：<code>function_name()</code></li>
+</ul>
+</li>
+<li><p>插入代码块：</p>
+<ul>
+<li><p>输入：<br><img src="https://github.com/geekhch/images/blob/master/markdown/code_block.png?raw=true" alt="代码块"><br>上面的c++可替换其他编程语言简写，md支持多种编程语法高亮</p>
+</li>
+<li><p>显示效果</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">akm</span><span class="params">(<span class="keyword">int</span> m, <span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">if</span>(m == <span class="number">0</span>)</span><br><span class="line">    <span class="keyword">return</span> (n+<span class="number">1</span>);</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(n == <span class="number">0</span>)</span><br><span class="line">    <span class="keyword">return</span> akm(m<span class="number">-1</span>, n);</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="keyword">return</span> akm(m<span class="number">-1</span>, akm(m, n<span class="number">-1</span>));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="标题篇"><a href="#标题篇" class="headerlink" title="标题篇"></a>标题篇</h3><p>md可轻松实现标题分级</p>
+<ul>
+<li><p>输入：</p>
+<figure class="highlight clean"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5></li>
+</ul>
+<hr>
+<h3 id="引用篇"><a href="#引用篇" class="headerlink" title="引用篇"></a>引用篇</h3><ol>
+<li>一级引用<ul>
+<li>输入：<br><br>> 引用文本内容</li>
+<li>显示：<blockquote>
+<p>引用文本内容</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>多级引用</p>
+<ul>
+<li><p>输入：<br></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;</span><span class="bash">11111</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;22222</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt;33333</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt;&gt;44444</span></span><br><span class="line"><span class="meta">&gt;</span><span class="bash">&gt;&gt;&gt;&gt;55555</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示：</p>
+<blockquote>
+<p>11111</p>
+<blockquote>
+<p>22222</p>
+<blockquote>
+<p>33333</p>
+<blockquote>
+<p>44444</p>
+<blockquote>
+<p>55555</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<hr>
+<h3 id="着重格式"><a href="#着重格式" class="headerlink" title="着重格式"></a>着重格式</h3><ul>
+<li><p>输入</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span><span class="emphasis">*你好，world*</span></span><br><span class="line"><span class="bullet">2. </span><span class="emphasis">_你好，world_</span></span><br><span class="line"><span class="bullet">3. </span><span class="strong">**你好，world**</span></span><br><span class="line"><span class="bullet">4. </span><span class="strong">__你好，world__</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示</p>
+<ol>
+<li><em>你好，world</em></li>
+<li><em>你好，world</em></li>
+<li><strong>你好，world</strong></li>
+<li><strong>你好，world</strong></li>
+</ol>
+</li>
+</ul>
+<h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><p>可以使用连续三个或三个以上的*或-或_实现分割线，例如</p>
+<ul>
+<li><p>输入：<br><br>***</p>
+</li>
+<li><p>显示：</p>
+</li>
+</ul>
+<hr>
+<hr>
+<h3 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h3><ul>
+<li><code>![我是图片](图片链接)，例如：</code><br><br><code>![茶卡盐湖](https://github.com/geekhch/images/blob/master/markdown/4.jpg?raw=true)</code><br>显示效果为</li>
+</ul>
+<ul>
+<li><img src="https://github.com/geekhch/images/blob/master/markdown/4.jpg?raw=true" alt="茶卡盐湖"></li>
+</ul>
+<hr>
+<h3 id="链接跳转"><a href="#链接跳转" class="headerlink" title="链接跳转"></a>链接跳转</h3><ol>
+<li>隐式链接跳转与图片相似，只需要去掉前面的感叹号。<ul>
+<li>输入：<code>[3CAT&#39;S Blog](http://www.3cat.top/myblog/)</code></li>
+<li>效果：<a href="http://www.3cat.top/myblog/">3CAT’S Blog</a></li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="插入视频"><a href="#插入视频" class="headerlink" title="插入视频"></a>插入视频</h3><p>因md兼容HTML，可以直接将视频网站的视频分享代码贴到文档中<br>例如输入：<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;embed <span class="attribute">src</span>=<span class="string">'http://player.youku.com/player.php/sid/XMzE0ODM1ODg1Ng==/v.swf'</span></span><br><span class="line"><span class="attribute">allowFullScreen</span>=<span class="string">'true'</span> <span class="attribute">quality</span>=<span class="string">'high'</span> <span class="attribute">width</span>=<span class="string">"100%"</span> <span class="attribute">height</span>=<span class="string">'385'</span> <span class="attribute">align</span>=<span class="string">'middle'</span></span><br><span class="line"><span class="attribute">allowScriptAccess</span>=<span class="string">'always'</span> <span class="attribute">type</span>=<span class="string">'application/x-shockwave-flash'</span>&gt;</span><br></pre></td></tr></table></figure></p>
+<p>效果：</p>
+<embed src="http://player.youku.com/player.php/sid/XMzE0ODM1ODg1Ng==/v.swf" allowfullscreen="true" quality="high" width="100%" height="385" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+</div><div class="tags"><a href="/tags/markdown/">markdown</a></div><div class="post-share"><div class="bdsharebuttonbox"><span style="float:left;line-height: 28px;height: 28px;font-size:16px;font-weight:blod">分享到：</span><a href="#" data-cmd="more" class="bds_more"></a><a href="#" data-cmd="mshare" title="分享到一键分享" class="bds_mshare"></a></div><!--    a.bds_fbook(href='#', data-cmd='fbook', title='分享到Facebook')--><!--    a.bds_twi(href='#', data-cmd='twi', title='分享到Twitter')--><!--    a.bds_linkedin(href='#', data-cmd='linkedin', title='分享到linkedin')--><!--    a.bds_youdao(href='#', data-cmd='youdao', title='分享到有道云笔记')--><!--    a.bds_evernotecn(href='#', data-cmd='evernotecn', title='分享到印象笔记')a.bds_weixin(href='#', data-cmd='weixin', title='分享到微信')
+a.bds_qzone(href='#', data-cmd='qzone', title='分享到QQ空间')
+a.bds_tsina(href='#', data-cmd='tsina', title='分享到新浪微博')
+--></div><div class="post-nav"><a href="/2018/01/17/deepin系统安装及使用教程/" class="pre">deepin系统安装及使用教程</a></div><div id="comments"></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Markdown简介"><span class="toc-number">1.</span> <span class="toc-text">Markdown简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码篇"><span class="toc-number">2.</span> <span class="toc-text">代码篇</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#标题篇"><span class="toc-number">3.</span> <span class="toc-text">标题篇</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#一级标题"><span class="toc-number"></span> <span class="toc-text">一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#二级标题"><span class="toc-number"></span> <span class="toc-text">二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#三级标题"><span class="toc-number">1.</span> <span class="toc-text">三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#四级标题"><span class="toc-number">1.1.</span> <span class="toc-text">四级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#五级标题"><span class="toc-number">1.1.1.</span> <span class="toc-text">五级标题</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#引用篇"><span class="toc-number">2.</span> <span class="toc-text">引用篇</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#着重格式"><span class="toc-number">3.</span> <span class="toc-text">着重格式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分割线"><span class="toc-number">4.</span> <span class="toc-text">分割线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图片插入"><span class="toc-number">5.</span> <span class="toc-text">图片插入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#链接跳转"><span class="toc-number">6.</span> <span class="toc-text">链接跳转</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#插入视频"><span class="toc-number">7.</span> <span class="toc-text">插入视频</span></a></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/01/29/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/26/路由器ipk软件编译笔记/">路由器ipk软件交叉编译踩坑记</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/26/linux实用操作/">linux实用操作积累</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/17/deepin系统安装及使用教程/">deepin系统安装及使用教程</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/12/22/markdown语法笔记/">markdown语法笔记</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/deepin/" style="font-size: 15px;">deepin</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/HelloWorld/" style="font-size: 15px;">HelloWorld</a> <a href="/tags/Shell/" style="font-size: 15px;">Shell</a> <a href="/tags/markdown/" style="font-size: 15px;">markdown</a> <a href="/tags/openwrt/" style="font-size: 15px;">openwrt</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">十二月 2017</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="http://les1ie.com" title="les1ie" target="_blank">les1ie</a><ul></ul><a href="http://chanchan.me" title="chanchan" target="_blank">chanchan</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/">许多美丽的故事</a></br><a href="/about/">about me</a></p><!-- if theme.baidusitemap//  if theme.feed
+    a(href=config.root+"atom.xml")= __("rss")
+    |  |
+//
+//- span 联系博主：
+//-   a.fa.fa-email(href="mailto:",target="_blank")
+//-   a.fa.fa-weibo(href="",target="_blank")
+//-   a.fa.fa-github(href="",target="_blank")
+--><p>---<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>---</p><p><span> Copyright &copy;<a href="/." rel="nofollow">geekhch.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.1"></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.1" async></script><script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["mshare","weixin","tsina","qzone","linkedin","fbook","twi","print","renren","sqq","evernotecn","bdysc","tqq","tqf","bdxc","kaixin001","tieba","douban","bdhome","thx","ibaidu","meilishuo","mogujie","diandian","huaban","duitang","hx","fx","youdao","sdo","qingbiji","people","xinhua","mail","isohu","yaolan","wealink","ty","iguba","h163","copy"],"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"image":{"viewList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["tsina","qzone","weixin","fbook","twi","linkedin","youdao","evernotecn","mshare"]}};with(document)0[(getElementsByTagName('head')[0]||head).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script></body></html>
