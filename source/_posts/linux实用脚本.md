@@ -5,7 +5,7 @@ date: 2018-02-02 15:37:53
 tags:
 - Linux
 - Shell
-description: 使用shell脚本操作数据库</br>
+description: 使用shell脚本操作数据库</br>批量修改文件后缀名</br>
 ---
 
 ---
@@ -20,7 +20,6 @@ show databases;
 use MQTT;
 show tables;
 show columns from sht31;
-quit;
 "
 ```
 >效果
@@ -55,3 +54,17 @@ ERROR 1064 (42000) at line 6: You have an error in your SQL syntax; check the ma
 ```
 
 ---
+
+### 批量修改文件后缀名
+
+```
+#!/bin/bash
+
+for filename in `ls ./ |grep $1 `
+    do
+        echo "原文件名：$filename"
+        newname=${filename/%$1/$2}
+        echo "新文件名：$newname"
+        mv $filename $newname
+    done
+```
