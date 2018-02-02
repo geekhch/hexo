@@ -3,9 +3,9 @@ layout: pages
 title: linux实用脚本
 date: 2018-02-02 15:37:53
 tags:
-  -Linux
-  -Shell
-decription: 使用shell脚本操作数据库</br>
+- Linux
+- Shell
+description: 使用shell脚本操作数据库</br>
 ---
 
 ---
