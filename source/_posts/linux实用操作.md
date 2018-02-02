@@ -19,7 +19,10 @@ description: 日常更新linux下比较实用的指令
 1. 编写好后需要使用`chmod +x filename`给相应脚本文件执行权限，否则无法使用常规命令执行脚本
 
 >示例
+
 ```sh
+#！/bin/bash
+
 while [ $x -ne 1000 ]
 	do
 		echo "这是第$x秒,1000秒时结束计数！";
@@ -30,9 +33,62 @@ while [ $x -ne 1000 ]
 
 ---
 
+### 使用shell脚本操作数据库
+>脚本代码
+
+```sh
+#! /bin/bash
+
+mysql -uroot -p123 -e "
+show databases;
+use MQTT;
+show tables;
+show columns from sht31;
+quit;
+"
+```
+>效果
+
+```
+geek@geek-PC:~/hexo$ ../code/sqlopt.sh
+mysql: [Warning] Using a password on the command line interface can be insecure.
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| MQTT               |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
++----------------+
+| Tables_in_MQTT |
++----------------+
+| sht31          |
++----------------+
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| sht_time | datetime    | YES  |     | NULL    |       |
+| sht_temp | smallint(6) | YES  |     | NULL    |       |
+| sht_hum  | smallint(6) | YES  |     | NULL    |       |
+| id       | int(11)     | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+ERROR 1064 (42000) at line 6: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'quit' at line 1
+
+```
+
+---
+
+### 查看文件夹大小
+
+>`du -d 1 -h` :查看深度为1的文件夹大小
+
+---
+
 ### 统计命令 `wc`
 ```
-Usage: wc [-clwL] [FILE]...
+Usage: wc [选项] [输入流文件]
 Count lines, words, and bytes for each FILE (or stdin)
 
 	-c	Count bytes
@@ -53,7 +109,6 @@ Count lines, words, and bytes for each FILE (or stdin)
 ---
 
 ### 文件查找
-
 >#### find命令    
 
 + find [路径] [表达式选项] [动作表达式]

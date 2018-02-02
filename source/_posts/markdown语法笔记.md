@@ -23,7 +23,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
  + 显示：`function_name()`
 1. 插入代码块：
  + 输入：
-  ![代码块](https://github.com/geekhch/images/blob/master/markdown/code_block.png?raw=true)
+  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/code_block.png?raw=true)
   上面的c++可替换其他编程语言简写，md支持多种编程语法高亮
 
  + 显示效果
@@ -119,11 +119,12 @@ md可轻松实现标题分级
 
 ### 图片插入
 
+>放一张高中暑假在青海拍的美景
  + `![我是图片](图片链接)，例如：`<br>
-   `![茶卡盐湖](https://github.com/geekhch/images/blob/master/markdown/4.jpg?raw=true)`
+   `![茶卡盐湖](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/4.jpg?raw=true)`
    显示效果为
 
-+ ![茶卡盐湖](https://github.com/geekhch/images/blob/master/markdown/4.jpg?raw=true)
++ ![茶卡盐湖](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/4.jpg?raw=true)
 
 ---
 
