@@ -39,6 +39,39 @@ while [ $x -ne 1000 ]
 
 ---
 
+### Bash字符串处理
+```sh
+#基于Pattern Matching的子串替换
+${STR/$OLD/$NEW}
+#替换第一个。
+${STR//$OLD/$NEW}
+#替换所有。
+${STR/#$OLD/$NEW}
+#替换开头。如果STR以OLD串开头，则替换。
+${STR/%$OLD/$NEW}
+#替换结尾。如果STR以OLD串结尾，则替换。
+
+[user@laptop ~]# STR=”Hello World”
+[user@laptop ~]# echo ${STR/o/O}
+HellO World
+[user@laptop ~]# echo ${STR//o/O}
+HellO WOrld
+[user@laptop ~]# STR=”Hello World”
+[user@laptop ~]# echo ${STR/#He/he}
+hello World
+[user@laptop ~]# echo ${STR/#o/he}
+Hello World
+[user@laptop ~]# echo ${STR/%He/he}
+Hello World
+[user@laptop ~]# echo ${STR/%ld/lD}
+Hello WorlD
+
+#注意：不能使用正则表达式，只能使用?*的Shell扩展。只能用shell通配符如 * ?  [list] [!list] [a-z]。
+#如果被替换串包含/字符，那么要转义，写成\/。
+```
+
+---
+
 ### 统计命令 `wc`
 ```
 Usage: wc [选项] [输入流文件]
