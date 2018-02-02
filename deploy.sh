@@ -1,7 +1,7 @@
 #!/bin/bash
 
-hexo g
 echo '\n***********自动生成静态页面***********'
+hexo g
 echo '\n***********启动本地服务器预览***********'
 hexo s
 proxychains4 hexo d '\n***********部署到github***********'
