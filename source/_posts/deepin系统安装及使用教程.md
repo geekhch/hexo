@@ -18,12 +18,12 @@ description: deepin是国人基于Ubuntu 开发而来的一款Linux系统,现在
 
 下面来几张美照
 
-![QQ](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/qq_desk.png?raw=true)
+![QQ](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/qq_desk.jpg?raw=true)
 
-![app](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/apps.png?raw=true)
+![app](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/apps.jpg?raw=true)
 
-![lanch](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/lan.png?raw=true)
+![lanch](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/lan.jpg?raw=true)
 
-![shell](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/shell.png?raw=true)
+![shell](https://raw.githubusercontent.com/geekhch/hexo/master/images/deepin/shell.jpg?raw=true)
 
 ----
