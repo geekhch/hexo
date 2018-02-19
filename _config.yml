@@ -4,7 +4,7 @@
 
 # Site
 title: 加菲猫
-subtitle: 做个正经的程序猿
+subtitle: 海纳百川
 description: 爱技术 爱分享
 author: geekhch
 language: zh-CN
@@ -80,7 +80,7 @@ deploy:
   type: git
   repository: https://github.com/geekhch/geekhch.github.io.git
   branch: master
-  message: "i will"
+  message: "hexo脚本自动提交"
 
 #本地站点搜索插件
 jsonContent:
