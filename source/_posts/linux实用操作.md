@@ -7,8 +7,6 @@ tags:
 description: 日常更新linux下比较实用的指令
 ---
 
----
-
 ### shell脚本
 >由多个linux指令集成在一个命令文件中
 

@@ -6,7 +6,6 @@ tags: Linux
 description: Linux依赖关系处理
 ---
 
----
 原地址已经不在了，这是二次转载</br>
 http://blog.csdn.net/sftxlin/article/details/8680815
 

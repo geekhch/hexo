@@ -8,7 +8,6 @@ tags:
 description: 初学时容易犯的小错和难点
 ---
 
----
 ### MySQL中文数据类型选择
 + 输入较长中文时选择数据类型`text`
 + 使用语句` alter table words_love CHARACTER SET utf8;`修改数据库编码

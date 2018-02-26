@@ -7,7 +7,6 @@ tags:
 description: deepin是国人基于Ubuntu 开发而来的一款Linux系统,现在已经成为我周围小伙伴们唯一长期使用的Linux系统。从deepin开始爱上linux。
 ---
 
----
 　　deepin是国人基于Ubuntu 开发而来的一款Linux系统，世界排名第七。现在已经用了三天了，感觉还是很棒的。安装过够发现再没进过Windows，干脆就把之前装win的固态硬盘格式化用来装了deepin，速度瞬间快了不少。
 
 　　这款系统最大的特点，毫无疑问是它对国人常用的软件的支持，这是其他linux系统难以实现的。deepin预装了ＱＱ，ＷＰＳ,网易云音乐，搜狗输入法。此外，还支持迅雷等一大波Windows下的软件。日常办公完全OK。这是其他Linux系统无法
