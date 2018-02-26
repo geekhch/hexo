@@ -1,10 +1,11 @@
 ---
-title: Django+MySQL笔记
+title: JS、Django、MySQL杂记
 date: 2018-02-24 17:34:30
 tags:
 - MySQL
 - Django
 - JavaScript
+description: 初学时容易犯的小错和难点
 ---
 
 ---
