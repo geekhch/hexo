@@ -63,7 +63,7 @@ description: 使用简单的JS代码实现web页面显示随机签名语句，�
  <script type="text/javascript" src="/js/word.js" async></script>
  ```
 
- ## 顺手记个js闭包实现原理
+ ## 顺手记个js闭包实现计数原理
 
 + `var add = (function()...)`自调用函数实际上只执行了一次
 + 第一次执行后，变量add为字符串 `"function () {return counter += 1;}"`
@@ -80,4 +80,4 @@ function myFunction(){
 
 
 ## 番外
-　　为了这一个小功能，刚看了几天Python后懵懂无知的我去学了Django和MySQL，打算用服务器来实现。正当我风风火火的开始学JavaScript用来在服务器与web页面传输数据时，让我笑哭的事就这么发生了...emmmm...
+　　为了这一个小功能，刚看了几天Python后懵懂无知的我去学了Django和MySQL，还初步实现了数据库模型。正当我风风火火的开始学JavaScript打算用来在服务器与web页面传输数据时，让我悔恨终生的事就这么愉快地发生了...emmmm...
