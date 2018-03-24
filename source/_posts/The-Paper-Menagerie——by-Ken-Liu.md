@@ -3,7 +3,6 @@ layout: pages
 title: The Paper Menagerie——by Ken Liu
 date: 2018-03-24 18:19:05
 tags: 美文
-description: thanks
 ---
 
 One of my earliest memories starts with me sobbing. I refused to be soothed no matter what Mom and Dad tried.
