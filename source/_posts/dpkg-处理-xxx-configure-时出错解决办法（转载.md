@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 'dpkg:处理 xxx (--configure)时出错解决办法（转载)'
+title: 【转】dpkg:处理 xxx (--configure)时出错解决办法
 date: 2018-02-03 19:30:49
 tags: Linux
 description: Linux依赖关系处理

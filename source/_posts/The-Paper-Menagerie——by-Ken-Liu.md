@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: The Paper Menagerie——by Ken Liu
+title: 【转】The Paper Menagerie—Ken Liu
 date: 2018-03-24 18:19:05
 tags: 美文
 categories: 美文
