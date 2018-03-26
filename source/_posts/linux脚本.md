@@ -6,6 +6,7 @@ tags:
 - Linux
 - Shell
 description: 使用shell脚本操作数据库</br>批量修改文件后缀名</br>
+categories: 猿笔记
 ---
 
 ### 使用shell脚本操作数据库

@@ -5,6 +5,7 @@ tags:
 - Linux
 - Shell
 description: 日常更新linux下比较实用的指令
+categories: 猿笔记
 ---
 
 ### shell脚本

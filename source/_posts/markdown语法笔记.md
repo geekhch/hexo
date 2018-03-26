@@ -4,6 +4,7 @@ title: markdown语法笔记
 date: 2017-12-22 19:57:30
 tags: markdown
 description: Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。事实上Markdow完全兼容HTML的语法，但使用Markdown排版非常简单。公认说法：让笔客可以专注于文字，不用花太多精力来排版。以下将其简称为md，本文使用Atom for Win编辑器实现。
+categories: 猿笔记
 ---
 
 >记录了一般博客常用的功能所需语法
