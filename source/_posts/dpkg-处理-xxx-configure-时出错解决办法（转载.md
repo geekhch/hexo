@@ -4,6 +4,9 @@ title: 'dpkg:处理 xxx (--configure)时出错解决办法（转载)'
 date: 2018-02-03 19:30:49
 tags: Linux
 description: Linux依赖关系处理
+categories:
+ - 猿笔记
+ - 操作系统
 ---
 
 原地址已经不在了，这是二次转载</br>

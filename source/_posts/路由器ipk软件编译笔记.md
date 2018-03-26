@@ -2,6 +2,9 @@
 title: openwrt极路由交叉编译踩坑记
 date: 2018-01-26 23:12:44
 tags: openwrt
+categories:
+ - 猿笔记
+ - 开源硬件
 ---
 ### 简介
   本次尝试对极路由4增强版进行openwrt交叉编译，从而实现在路由器上搭建mqtt的broker。本文主要学习如何编译合适的软件包。一般来说openwrt直接通过opkg软件源安装，但学会交叉编译可以利用源代码编译路由器软件
