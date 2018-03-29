@@ -33,3 +33,13 @@ var words = [
     document.getElementById("subt").innerHTML = words[rand];
     console.log(rand+"\n");
 })();
+
+(function (){
+    setInterval(
+        function () {
+            $("#subt").fadeOut(2000);
+            $("#subt").fadeIn(2000)
+        },
+        3000
+    );
+})();

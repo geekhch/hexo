@@ -37,8 +37,8 @@ var words = [
 (function (){
     setInterval(
         function () {
-            $("#subt").fadeOut(2000);
-            $("#subt").fadeIn(2000)
+            $("#subt").fadeOut(1000);
+            $("#subt").fadeIn(1000)
         },
         3000
     );
