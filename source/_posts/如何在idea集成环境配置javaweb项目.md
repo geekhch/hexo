@@ -6,24 +6,27 @@ tags: Web开发
 categories: 猿笔记
 description: idea集成环境javaweb项目配置步骤
 ---
-## 一、概要
-要顺利使用idea进行javaweb开发，需要进入File->Project Structure进行如下配置:Projectmodules、facets, libraries, artifacts, SDKs，以及Tomcat配置。本教程以辛未老师的todoDemo项目配置为例。
-***
+## 概要
+要顺利使用idea进行javaweb开发，需要进入File->Project Structure进行如下配置:Projectmodules、facets, libraries, artifacts, SDKs，以及Tomcat配置。本教程以辛老师的todoDemo项目配置为例。
 
-##　创建新项目
+---
+
+## 创建新项目
+
 为了去掉原有eclipse脚本等无关文件，使用IDEA Utimate新建web项目
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea1.png?raw=true)
 然后将辛老师项目下的src、WebRoot文件夹下面的文件分别复制到新建项目对应文件夹下（WEBROOT/ -> web/）
 
-## 一、配置Modules
+## 配置Modules
 Modules主要指后端功能实现的java代码，该配置是告诉idea那些文件需要被编译，以及编译后的class文件保存到哪个位置。
 1. **配置Modules源**
 配置好后如下图，只有src文件为蓝色(Source)
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea2.png?raw=true)
+ 
 
 ２. **配置编译输出目录**
 Source文件应该被编译到WEB-INF下的classes文件夹下,进行如下配置
- ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_output.png?raw=true)
+![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_output.png?raw=true)
 
  3. **配置tomcat**
   ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_cat1.png?raw=true)
