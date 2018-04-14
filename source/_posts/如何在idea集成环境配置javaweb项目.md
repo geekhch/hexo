@@ -26,7 +26,7 @@ Modules主要指后端功能实现的java代码，该配置是告诉idea那些�
 
 ２. **配置编译输出目录**
 Source文件应该被编译到WEB-INF下的classes文件夹下,进行如下配置
-![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_output.png?raw=true)
+![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_output.png?raw=true)e
 
  3. **配置tomcat**
   ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_cat1.png?raw=true)
