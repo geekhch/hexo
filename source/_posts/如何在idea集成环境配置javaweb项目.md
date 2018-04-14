@@ -22,29 +22,30 @@ Modules主要指后端功能实现的java代码，该配置是告诉idea那些�
 1. **配置Modules源**
 配置好后如下图，只有src文件为蓝色(Source)
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea2.png?raw=true)
- 
-
 ２. **配置编译输出目录**
 Source文件应该被编译到WEB-INF下的classes文件夹下,进行如下配置
 ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_output.png?raw=true)e
 
- 3. **配置tomcat**
+## **配置tomcat**
   ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_cat1.png?raw=true)
 ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_cat2.png?raw=true)
 看到下面有个warning,　点fix->ok
 
-4. **配置facets**
+## **配置facets**
 facets的作用是将web.xml文件与web资源文件相互映射，如果你确定web.xml文件没写错而编译器爆红的话，就是这个配置有问题。
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_facets.png?raw=true)
 
- 5. **配置artifacts**
+## **配置artifacts**
  这是配置网站的资源发布，告诉idea哪些文件是作为webapp直接发布的,idea会把这些文件拷贝到out目录下面，然后浏览器访问的也是out目录下面的文件。
   ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_art.png?raw=true)
    ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_art1.png?raw=true)
 
 配置好后运行项目，会有很多报错，如果是非法字符报错，是eclipse与idea的字符编码冲突造成的，点右下角utf-8,把当前文件convert成其他编码再convert回来就好了，但是有多个文件，所以要convert多次.....淡定，小事
 
-６. **配置librariea**
+## **配置librariea**
 HttpServlet这些类名报错，说明缺少相应的依赖库，servlet依赖库在tomcat安装目录lib文件夹下
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_lib.png?raw=true)
  还有json，jdbc什么的，辛老师项目WEB-INF/lib文件夹下面有这些包，按上面方式导入就行了
+
+## **结**
+暂时就这些，如果还有其他问题欢迎多多交流
