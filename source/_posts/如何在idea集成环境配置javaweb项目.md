@@ -58,10 +58,11 @@ facets的作用是将web.xml文件与web资源文件相互映射，如果你确�
 ## **配置libraries**
 HttpServlet这些类名报错，说明缺少相应的依赖库，servlet依赖库在tomcat安装目录lib文件夹下
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_lib.png?raw=true)
- 还有json，jdbc什么的，辛老师项目WEB-INF/lib文件夹下面有这些包，按上面方式导入就行了
+ 还有json，jdbc什么的，辛老师项目WEB-INF/lib文件夹下面有这些包，按上面方式导入后，点运行按钮redeploy,应该就能打开网页了，打开网页后看不到菜单，是因为数据库有问题，检查是否导入了数据库，以及DAO用户设置。
 
 ---
 ## **结**
++ 一定要学会看log,如果网页打开错误，状态码为5开头，服务器日志一定会有异常记录，然后复制异常记录到搜索引擎或者问老师同学。 ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_log.png?raw=true)
 + 最后推荐一组快捷键，`Ctrl+Shift+A`。
 + [idea快捷键手册](!http://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
 
