@@ -16,6 +16,8 @@ description: idea集成环境javaweb项目配置步骤
 为了去掉原有eclipse脚本等无关文件，使用IDEA Utimate新建web项目
  ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea1.png?raw=true)
 然后将辛老师项目下的src、WebRoot文件夹下面的文件分别复制到新建项目对应文件夹下（WEBROOT/ -> web/）
+目录树如下：
+ ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_tree.png?raw=true)
 
 ---
 ## 配置project
