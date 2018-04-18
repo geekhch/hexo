@@ -28,6 +28,14 @@ var words = [
     "天不老，情难绝。心似双丝网，中有千千结。"
 ];
 
+var _hmt = _hmt || [];
+(function () {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?4cba0cf9c055e2a3aa6dd24cb418c43a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+
 (function(){
     var rand = parseInt(Math.random() * words.length);
     document.getElementById("subt").innerHTML = words[rand];
