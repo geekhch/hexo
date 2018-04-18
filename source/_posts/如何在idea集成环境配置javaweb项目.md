@@ -62,7 +62,8 @@ HttpServlet这些类名报错，说明缺少相应的依赖库，servlet依赖�
 
 ---
 ## **结**
-+ 一定要学会看log,如果网页打开错误，状态码为5开头，服务器日志一定会有异常记录，然后复制异常记录到搜索引擎或者问老师同学。 ![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_log.png?raw=true)
++ 一定要学会看log,如果网页打开错误，状态码为5开头，服务器日志一定会有异常记录，然后复制异常记录到搜索引擎或者问老师同学。 
+![代码块](https://raw.githubusercontent.com/geekhch/hexo/master/images/markdown/idea_log.png?raw=true)
 + 最后推荐一组快捷键，`Ctrl+Shift+A`。
 + [idea快捷键手册](!http://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
 
