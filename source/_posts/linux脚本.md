@@ -69,3 +69,19 @@ for filename in `ls ./ |grep $1 ` #筛选出需要修改的文件
         mv $filename $newname
     done
 ```
+
+---
+
+### 批量修改图片分辨率
+由于体育课要提交大量照片，源图片太大需要压缩一下。参考上面批量修改文件名的脚本可以轻松得到此效果
+
+```sh
+#!/bin/bash
+
+for filename in `ls ./ |grep $1 ` #筛选出需要修改的文件
+    do
+        echo "文件名：$filename"
+        convert $filename -resize 1080x440 $filename
+    done
+
+```
