@@ -14,3 +14,4 @@ tags:
 ### destination
 + give a score of the news to describle if the thing is good or not.
 + pick the most briliant comment out(use nlp, whitch may be very difficult)
++ use cluster to 
