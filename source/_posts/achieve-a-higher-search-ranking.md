@@ -16,6 +16,7 @@ categories: 猿笔记
 >搜索引擎排名机制
 
 搜索结果的排名主要由网站与搜索内容的相关度以及网页级别PR（Page Rank）两大因素确定。其中，PR指的是该网页被其他网页引用的流行度，如果一个网页被更多的网页或者排名更高的网页引用，该网页的PR都会相应提高。该算法也是谷歌创始人创办谷歌的主要内容之一。
+![pageRank](https://raw.githubusercontent.com/geekhch/hexo/master/images/auto/pagerank.jpg?raw=true)
 
 ## 二、提升排名的方式
 此处针对第一部分提到的网站排名机制总结一些SEO常用方法，大家已经可以猜到一些提升网站排名的方式了吧~
