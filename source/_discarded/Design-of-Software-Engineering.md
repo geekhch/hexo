@@ -1,7 +1,9 @@
 layout: pages
 title: Design of Software Engineering
-date: 2018-10-23 08:22:55
-tags:
+tags: []
+categories: []
+author: geekhch
+date: 2018-10-23 08:22:00
 ---
 ## Steps
 1. information domian transformed into data structures
@@ -11,3 +13,5 @@ tags:
 
 
 little test
+
+![upload successful](/images/pasted-image.png)
