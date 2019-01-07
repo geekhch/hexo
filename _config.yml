@@ -12,7 +12,7 @@ keywords: 博客, 何长鸿, geekhch
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.3cat.top
+url: http://blog.3cat.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults: :year/:month/:day/:title/
@@ -120,4 +120,4 @@ admin:
   username: geekhch
   password_hash: $2a$10$pJo19uknhzfmNVlP84fEIO6ANDFerCWGztTEF6oBQMBignu6NGKUO
   secret: 1564fesfgrirnjsgfhgfhj
-  deployCommand: hexo-deploy.sh
+  deployCommand: /home/hch/hexo/hexo-deploy.sh
