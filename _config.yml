@@ -79,7 +79,7 @@ theme: BlueLake
 deploy:
   type: git
   # repository: git@github.com:geekhch/geekhch.github.io.git
-  repository: https://github.com/geekhch/geekhch.github.io.git
+  repository: https://geekhch:19970907Aa.@github.com/geekhch/geekhch.github.io.git
   branch: master
   message: "hexo脚本自动提交"
 
