@@ -1,10 +1,9 @@
----
 layout: pages
 title: Achieve a higher search ranking
-date: 2018-10-17 22:35:19
 tags:
-- Web
+  - Web
 categories: 猿笔记
+date: 2018-10-17 22:35:19
 ---
 提升网站排名的方式，一种是充钱开挂（想必大家都有所体会了），另一种就是通过SEO（Search Engine Optimization）优化技术来实现。本文仅考虑后者。
 

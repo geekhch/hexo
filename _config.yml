@@ -115,3 +115,9 @@ stylus:
 #       throwOnError: false,
 #       errorColor: "#cc0000"
 #       # KaTeX config
+# hexo-admin authentification
+admin:
+  username: geekhch
+  password_hash: $2a$10$pJo19uknhzfmNVlP84fEIO6ANDFerCWGztTEF6oBQMBignu6NGKUO
+  secret: 1564fesfgrirnjsgfhgfhj
+  deployCommand: hexo-deploy.sh
