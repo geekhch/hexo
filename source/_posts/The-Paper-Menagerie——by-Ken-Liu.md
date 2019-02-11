@@ -1,9 +1,10 @@
----
 layout: pages
-title: 《The Paper Menagerie》
-date: 2018-03-24 18:19:05
-tags: 美文
-categories: 美文
+title: 《转：The Paper Menagerie》
+tags:
+  - 人际关系
+categories:
+  - 阅读
+date: 2018-03-24 18:19:00
 ---
 
 One of my earliest memories starts with me sobbing. I refused to be soothed no matter what Mom and Dad tried.

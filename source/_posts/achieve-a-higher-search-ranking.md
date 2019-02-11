@@ -1,11 +1,13 @@
 layout: pages
-title: Achieve a higher search ranking
+title: 提高网站搜索排名
 tags:
   - Web
-categories: 猿笔记
-date: 2018-10-17 22:35:19
+categories:
+  - 猿笔记
+author: geekhch
+date: 2018-10-17 22:35:00
 ---
-提升网站排名的方式，一种是充钱开挂（想必大家都有所体会了），另一种就是通过SEO（Search Engine Optimization）优化技术来实现。本文仅考虑后者。
+提升网站排名的方式，一种是充钱开挂（百度的三流医院广告），另一种就是通过SEO（Search Engine Optimization）优化技术来实现。本文仅考虑后者。
 
 ## 一、搜索引擎的排名机制
 >搜索引擎如何发现并收录新网站
