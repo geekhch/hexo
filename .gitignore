@@ -1,3 +1,5 @@
 .deploy_git
 public
 .idea
+*.log
+*.swp
