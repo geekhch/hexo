@@ -15,4 +15,4 @@ git add --ignore-removal .
 echo -e "\n***********添加文件完成***********\n"
 git commit -m "脚本自动提交--$USER"
 echo -e "\n***********自动commit完成，正在push***********\n"
-git push #git@github.com:geekhch/hexo.git
+git push
