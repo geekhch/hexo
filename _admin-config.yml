@@ -1,5 +1,5 @@
 options:
-  askImageFilename: false
+  askImageFilename: true
   overwriteImages: false
   lineNumbers: true
 editor:
