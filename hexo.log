@@ -1,5 +1,51 @@
 nohup: 忽略输入
-(node:18038) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+(node:18669) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
 INFO  [hexo-math] Using engine 'mathjax'
 INFO  Start processing
 INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+Unhandled rejection TypeError: Cannot read property 'source' of undefined
+    at addIsDraft (/home/hch/hexo/node_modules/hexo-admin/api.js:14:25)
+    at /home/hch/hexo/node_modules/hexo-admin/api.js:331:15
+    at /home/hch/hexo/node_modules/hexo-admin/update.js:91:9
+    at tryCatcher (/home/hch/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:582:21)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at MappingPromiseArray.PromiseArray._resolve (/home/hch/hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at MappingPromiseArray._promiseFulfilled (/home/hch/hexo/node_modules/bluebird/js/release/map.js:101:18)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:574:26)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/hch/hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hch/hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hch/hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:810:20)
+Unhandled rejection TypeError: Cannot read property 'source' of undefined
+    at addIsDraft (/home/hch/hexo/node_modules/hexo-admin/api.js:14:25)
+    at /home/hch/hexo/node_modules/hexo-admin/api.js:83:16
+    at /home/hch/hexo/node_modules/hexo-admin/update.js:91:9
+    at tryCatcher (/home/hch/hexo/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:582:21)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Promise._fulfill (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:638:18)
+    at MappingPromiseArray.PromiseArray._resolve (/home/hch/hexo/node_modules/bluebird/js/release/promise_array.js:126:19)
+    at MappingPromiseArray._promiseFulfilled (/home/hch/hexo/node_modules/bluebird/js/release/map.js:101:18)
+    at Promise._settlePromise (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:574:26)
+    at Promise._settlePromise0 (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/hch/hexo/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/hch/hexo/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/hch/hexo/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/hch/hexo/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:810:20)
