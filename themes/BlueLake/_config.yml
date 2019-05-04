@@ -100,7 +100,7 @@ busuanzi: true ## If you want to use Busuanzi page views please set the value to
 
 # About page
 about:
-  photo_url: https://raw.githubusercontent.com/geekhch/hexo/master/images/head.jpg?raw=true ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
+  photo_url: ./head.jpg #https://raw.githubusercontent.com/geekhch/hexo/master/images/head.jpg?raw=true ## Your photo e.g. http://obzf7z93c.bkt.clouddn.com/themeauthor.jpg
   items:
   - label: email
     url: geekhch@qq.com
