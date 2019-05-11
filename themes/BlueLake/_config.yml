@@ -16,10 +16,10 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-#  - page:
-#    directory: atom.xml
-#    icon: fa-rss
-
+# - page: albums
+#   directory: album/
+#   fa-icon: fa-key
+    
 # Sidebar
 widgets:
   - recent_posts
@@ -74,8 +74,8 @@ comment:
   uyan: ## 友言(uid)
   cloudTie: ## 网易云跟帖(productKey)
   changyan: ## 畅言需在下方配置两个参数，此处不填。
-    appid: ## 畅言(appid)
-    appkey: ##畅言(appkey)
+    appid:  cyudVI8xY # 畅言(appid)
+    appkey: d5753aa9732c70b1cb9be0791b833ebc ##畅言(appkey)
 
 #Share
 baidu_share: false ## 百度分享
@@ -97,6 +97,10 @@ baidu_analytics: 4cba0cf9c055e2a3aa6dd24cb418c43a ## Your Baidu Analytics tracki
 show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+
+albums:
+  photo_url: ./head.jpg
+  items:
 
 # About page
 about:
