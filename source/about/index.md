@@ -1,8 +1,20 @@
 ---
-title: album
+title: about
 date: 2018-01-28 03:50:52
 ---
 <center>
-«eating»
-«playing»
-That's all!
+eating  
+playing  
+
+<center>
+That's all!  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
